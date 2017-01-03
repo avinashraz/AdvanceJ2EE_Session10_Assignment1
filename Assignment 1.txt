@@ -1,0 +1,27 @@
+Step 1:
+mysql> show databases;
+
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| avi                |
+| employees          |
+| mysql              |
+| performance_schema |
+| project            |
+| project1           |
+| sakila             |
+| sys                |
+| world              |
++--------------------+
+10 rows in set (0.00 sec)
+Step 2:
+mysql> create database db;
+Query OK, 1 row affected (0.00 sec)
+Step 3:
+mysql> use db;
+Database changed
+Step 4:(Select the path)
+mysql> source D:/Advance java/test_db-master/employees.sql
+Query OK, 8 rows affected (1.63 sec)
